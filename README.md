@@ -1,6 +1,6 @@
 MFRANet: Multi-Scale Feature Refinement with Optimal Dual Attention-Driven Network for Salient Object Detection
 This repository will contain the implementation of MFRANet, a novel network designed for salient object detection (SOD), once our paper is accepted and published. MFRANet leverages multiscale feature extraction, contextual spatial feature attention, channel-optimized dilated attention, and progressive feature fusion to achieve state-of-the-art (SOTA) performance in saliency detection tasks.
-## Overview
+# Overview
 In our work, we present MFRANet, which integrates EfficientNet-B7 as the backbone to extract multiscale feature maps across six reduction stages. This allows the network to provide a balanced representation of salient objects with detailed low-level and rich high-level features. Key modules include:
 
 ## Contextual Spatial Feature Attention (CSFA) Module: 
