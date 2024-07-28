@@ -3,9 +3,12 @@ This repository will contain the implementation of MFRANet, a novel network desi
 ## Overview
 In our work, we present MFRANet, which integrates EfficientNet-B7 as the backbone to extract multiscale feature maps across six reduction stages. This allows the network to provide a balanced representation of salient objects with detailed low-level and rich high-level features. Key modules include:
 
-## Contextual Spatial Feature Attention (CSFA) Module: Refines spatial features while preserving edge awareness, enhancing the accuracy and precision of saliency maps.
-## Channel-Optimized Dilated Attention (CODA) Module: Utilizes dilated convolutions with optimized dilation rates to capture multi-scale contextual information and refine channels for improved detection performance.
-## Progressive Feature Fusion: Combines high-level semantic information and low-level spatial details through multiple skip connections, ensuring robust feature representation and effective gradient backpropagation.
+## Contextual Spatial Feature Attention (CSFA) Module: 
+Refines spatial features while preserving edge awareness, enhancing the accuracy and precision of saliency maps.
+## Channel-Optimized Dilated Attention (CODA) Module: 
+Utilizes dilated convolutions with optimized dilation rates to capture multi-scale contextual information and refine channels for improved detection performance.
+## Progressive Feature Fusion: 
+Combines high-level semantic information and low-level spatial details through multiple skip connections, ensuring robust feature representation and effective gradient backpropagation.
 
 To enhance the network's robustness, we train MFRANet with augmented data featuring adjustments for both high and low brightness levels, thereby improving its ability to handle diverse lighting conditions.
 ## Experimental Results
