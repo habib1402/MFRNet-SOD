@@ -1,5 +1,5 @@
 ## Future Availability
-The complete implementation of MFRNet, including code, pretrained models, and detailed usage instructions are in organization process and will be made available in this repository. We appreciate your interest and patience.
+The complete implementation of MFRNet, including pretrained models for reproducing the results, and detailed usage instructions are in organization process and will be made available in this repository. We appreciate your interest and patience.
 ## Citation@article{KHAN2024105308,
 title = {Attention enhanced machine instinctive vision with human-inspired saliency detection},
 journal = {Image and Vision Computing},
